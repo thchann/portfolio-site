@@ -16,7 +16,7 @@ const Index = () => {
         <div className="lg:flex lg:gap-12">
           {/* Left Column - Fixed on desktop */}
           <aside className="lg:sticky lg:top-20 lg:h-screen lg:w-1/2 lg:py-20 mb-16 lg:mb-0">
-            <div className="flex flex-col justify-between h-full">
+            <div className="flex flex-col justify-start">
               <div>
                 <h1 className="text-5xl font-bold text-slate-lighter mb-3">
                   Theodore Chan
