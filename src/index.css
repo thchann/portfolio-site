@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 214 23% 8%;
+    --foreground: 210 17% 95%;
+    
+    --navy: 214 23% 8%;
+    --navy-light: 216 17% 15%;
+    --navy-lighter: 218 15% 25%;
+    
+    --slate: 218 15% 65%;
+    --slate-light: 220 15% 75%;
+    --slate-lighter: 220 15% 85%;
+    
+    --cyan: 167 74% 63%;
+    --cyan-glow: 167 74% 63%;
+    
+    --card: 216 17% 15%;
+    --card-foreground: 210 17% 95%;
+    
+    --primary: 167 74% 63%;
+    --primary-foreground: 214 23% 8%;
+    
+    --secondary: 216 17% 15%;
+    --secondary-foreground: 210 17% 95%;
+    
+    --muted: 218 15% 25%;
+    --muted-foreground: 218 15% 65%;
+    
+    --accent: 167 74% 63%;
+    --accent-foreground: 214 23% 8%;
+    
+    --border: 218 15% 25%;
+    --input: 218 15% 25%;
+    --ring: 167 74% 63%;
+    
+    --radius: 0.5rem;
+    
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .text-navy {
+    color: hsl(var(--navy));
+  }
+  
+  .text-slate {
+    color: hsl(var(--slate));
+  }
+  
+  .text-cyan {
+    color: hsl(var(--cyan));
+  }
+  
+  .bg-navy {
+    background-color: hsl(var(--navy));
+  }
+  
+  .bg-navy-light {
+    background-color: hsl(var(--navy-light));
+  }
+  
+  .hover-glow {
+    transition: var(--transition-smooth);
+  }
+  
+  .hover-glow:hover {
+    box-shadow: 0 0 20px hsl(var(--cyan) / 0.15);
+    background-color: hsl(var(--navy-light) / 0.5);
+  }
+}
