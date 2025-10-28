@@ -54,8 +54,8 @@ const Index = () => {
                 </p>
                 <p>
                   In the past, I've had the opportunity to create software across a range of domains
-                  — from developing a production-grade facial engagement model for other
-                  universities, to building a full-stack social platform that connects people
+                  — from developing a production-grade facial engagement model for George Mason
+                  University, to building a full-stack social platform that connects people
                   through shared experiences, to mentoring peers in Trinity's ACM chapter. Each
                   experience has deepened my passion for designing systems that balance technical
                   depth with creativity and human impact.
@@ -126,7 +126,7 @@ const Index = () => {
                   title="Lynk - RowdyHacks 2025 Winner"
                   description="Peer-to-peer iOS app enabling instant 'tap-to-share' contact exchanges between nearby users. Built with SwiftUI and Auth0 authentication, connected to a FastAPI backend with MongoDB persistence."
                   image={lynkImage}
-                  link="https://github.com/GustavoBelaunde2004/Lynk"
+                  link="https://devpost.com/thchann"
                 />
                 <ProjectCard
                   title="Class Sense"
