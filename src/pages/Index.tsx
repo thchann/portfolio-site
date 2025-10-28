@@ -54,7 +54,7 @@ const Index = () => {
                 </p>
                 <p>
                   In the past, I've had the opportunity to create software across a range of domains
-                  — from developing a production-grade facial engagement model for George Mason
+                  — from developing a sophisticated facial engagement model for George Mason
                   University, to building a full-stack social platform that connects people
                   through shared experiences, to mentoring peers in Trinity's ACM chapter. Each
                   experience has deepened my passion for designing systems that balance technical
