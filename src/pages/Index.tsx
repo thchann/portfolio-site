@@ -123,7 +123,7 @@ const Index = () => {
             <section id="projects" className="mb-24 scroll-mt-20">
               <div className="space-y-4">
                 <ProjectCard
-                  title="Lynk"
+                  title="Lynk - RowdyHacks 2025 Winner"
                   description="Peer-to-peer iOS app enabling instant 'tap-to-share' contact exchanges between nearby users. Built with SwiftUI and Auth0 authentication, connected to a FastAPI backend with MongoDB persistence."
                   image={lynkImage}
                   link="https://github.com/GustavoBelaunde2004/Lynk"
