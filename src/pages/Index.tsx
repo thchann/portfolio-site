@@ -72,7 +72,7 @@ const Index = () => {
               <div className="space-y-4">
                 <ExperienceCard
                   period="Sept 2025 — Present"
-                  title="Software Engineer Fellow"
+                  title="Software Engineer Intern"
                   company="H-E-B"
                   description="Developed and deployed a full-stack vendor submission platform for H-E-B's Quest for Texas Best competition. Implemented secure authentication, containerized services, and CI/CD pipelines, ensuring smooth onboarding and reliable performance for 600+ vendors."
                   technologies={["JavaScript", "TypeScript", "FastAPI", "Flyway", "Docker", "DBeaver"]}
