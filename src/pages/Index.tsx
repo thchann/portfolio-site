@@ -71,15 +71,15 @@ const Index = () => {
             <section id="experience" className="mb-24 scroll-mt-20">
               <div className="space-y-4">
                 <ExperienceCard
-                  period="Sept 2025 — Present"
+                  period="Sept 2025 — Dec 2025"
                   title="Software Engineer Intern"
                   company="H-E-B"
                   description="Developed and deployed a full-stack vendor submission platform for H-E-B's Quest for Texas Best competition. Implemented secure authentication, containerized services, and CI/CD pipelines, ensuring smooth onboarding and reliable performance for 600+ vendors."
                   technologies={["JavaScript", "TypeScript", "FastAPI", "Flyway", "Docker", "DBeaver"]}
                 />
                 <ExperienceCard
-                  period="May 2025 — Aug 2025"
-                  title="Machine Learning Researcher"
+                  period="May 2025 — Present"
+                  title="Research Software Engineer"
                   company="Trinity University"
                   link="https://github.com/thchann/class_sense"
                   description="Developed Class Sense, an AI-driven engagement analysis tool used by multiple universities to study student focus and participation. Designed and trained a dual-input transformer model combining facial and behavioral features, achieving high predictive accuracy and demonstrating the potential of multimodal learning in real-time education settings."
