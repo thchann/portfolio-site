@@ -100,7 +100,7 @@ const Index = () => {
                   technologies={["Matrix Multiplication"]}
                 />
                 <ExperienceCard
-                  period="Mar 2022 — Jun 2022"
+                  period="Mar 2023 — Aug 2023"
                   title="Software Engineer Intern"
                   company="ZACD"
                   link="https://github.com/thchann/ranking-website"
