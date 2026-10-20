@@ -108,7 +108,7 @@ const Index = () => {
                   technologies={["PHP", "MySQL", "Bootstrap", "JavaScript"]}
                 />
                 <a
-                  href="https://drive.google.com/file/d/1q6K5DYmnSxgcxnIL-7yiPmXnl8XRJjs4/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1jzPuPE0LkfwThV8Uph9sLaQqpGZ4bJtP/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 text-cyan font-semibold hover:underline mt-6 group"
